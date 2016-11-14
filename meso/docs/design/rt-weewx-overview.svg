@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="27cm" height="38cm" viewBox="120 191 529 757" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="125.3" y="191.768" width="523.311" height="181.756"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="125.3" y="191.768" width="523.311" height="181.756"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="386.597" y="213.239">
+    <tspan x="386.597" y="213.239">Weewx</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="146.821" y="280.7" width="143.18" height="71.5902"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="146.821" y="280.7" width="143.18" height="71.5902"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="235.25" y="334.333" width="44.1" height="59.5"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="235.25" y="334.333" width="44.1" height="59.5"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="257.3" y="367.183">
+    <tspan x="257.3" y="367.183">MySQL</tspan>
+  </text>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="218.411" y="319.595">
+    <tspan x="218.411" y="319.595">Archive</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="157.206" y="333.847" width="44.1" height="59.5"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="157.206" y="333.847" width="44.1" height="59.5"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="179.256" y="366.697">
+    <tspan x="179.256" y="366.697">SQLite</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="324.057" y="233.346" width="268.047" height="115.614"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="324.057" y="233.346" width="268.047" height="115.614"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="458.762" y="251.151">
+    <tspan x="458.762" y="251.151">Extensions</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="421.743" y="264.051" width="73.2551" height="130.694"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="421.743" y="264.051" width="73.2551" height="130.694"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="458.371" y="332.498">
+    <tspan x="458.371" y="332.498">DB Sync</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="505.401" y="262.839" width="73.2551" height="130.694"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="505.401" y="262.839" width="73.2551" height="130.694"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="542.029" y="325.686">
+    <tspan x="542.029" y="325.686">Raw Data</tspan>
+    <tspan x="542.029" y="336.886">Push</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="280.224" y="439.808" width="64.2717" height="56.7103"/>
+    <ellipse style="fill: #ffffff" cx="312.36" cy="496.518" rx="32.1358" ry="9.45172"/>
+    <ellipse style="fill: #ffffff" cx="312.36" cy="439.808" rx="32.1358" ry="9.45172"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" cx="312.36" cy="439.808" rx="32.1358" ry="9.45172"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" d="M 344.496 439.808 L 344.496,496.518 C 344.496,501.738 330.108,505.97 312.36,505.97 C 294.612,505.97 280.224,501.738 280.224,496.518 L 280.224,439.808"/>
+    <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="312.36" y="514.37">
+      <tspan x="312.36" y="514.37"></tspan>
+    </text>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="314.07" y="471.263">
+    <tspan x="314.07" y="471.263">MySQL</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x1="179.256" y1="393.347" x2="178.719" y2="421.345"/>
+    <polygon style="fill: #000000" points="178.575,428.844 173.768,418.75 178.719,421.345 183.766,418.942 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" points="178.575,428.844 173.768,418.75 178.719,421.345 183.766,418.942 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="146.409" y="439.861" width="64.2717" height="56.7103"/>
+    <ellipse style="fill: #ffffff" cx="178.545" cy="496.571" rx="32.1358" ry="9.45172"/>
+    <ellipse style="fill: #ffffff" cx="178.545" cy="439.861" rx="32.1358" ry="9.45172"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" cx="178.545" cy="439.861" rx="32.1358" ry="9.45172"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" d="M 210.681 439.861 L 210.681,496.571 C 210.681,501.791 196.293,506.023 178.545,506.023 C 160.797,506.023 146.409,501.791 146.409,496.571 L 146.409,439.861"/>
+    <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="178.545" y="514.423">
+      <tspan x="178.545" y="514.423"></tspan>
+    </text>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="180.016" y="477.615">
+    <tspan x="180.016" y="477.615">SQLite</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="510.409" y="439.458" width="64.2717" height="56.7103"/>
+    <ellipse style="fill: #ffffff" cx="542.545" cy="496.168" rx="32.1358" ry="9.45172"/>
+    <ellipse style="fill: #ffffff" cx="542.545" cy="439.458" rx="32.1358" ry="9.45172"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" cx="542.545" cy="439.458" rx="32.1358" ry="9.45172"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" d="M 574.681 439.458 L 574.681,496.168 C 574.681,501.388 560.293,505.62 542.545,505.62 C 524.797,505.62 510.409,501.388 510.409,496.168 L 510.409,439.458"/>
+    <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="542.545" y="514.02">
+      <tspan x="542.545" y="514.02"></tspan>
+    </text>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="543.309" y="477.213">
+    <tspan x="543.309" y="477.213">Redis</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke-dasharray: 4; stroke: #000000" x1="542.101" y1="403.574" x2="542.393" y2="420.942"/>
+    <polygon style="fill: #000000" points="542.519,428.441 537.352,418.526 542.393,420.942 547.35,418.358 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" points="542.519,428.441 537.352,418.526 542.393,420.942 547.35,418.358 "/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="231.071" y="552.644">
+    <tspan x="231.071" y="552.644"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="123.612" y="553.42" width="522.883" height="141.552"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="123.612" y="553.42" width="522.883" height="141.552"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="381.863" y="574.038">
+    <tspan x="381.863" y="574.038">Web Server</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x1="458.371" y1="394.745" x2="457.985" y2="419.264"/>
+    <polygon style="fill: #000000" points="457.866,426.764 453.025,416.686 457.985,419.264 463.023,416.843 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" points="457.866,426.764 453.025,416.686 457.985,419.264 463.023,416.843 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="470.386" y="570.606" width="146.153" height="131.629"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="470.386" y="570.606" width="146.153" height="131.629"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="543.463" y="636.421">
+    <tspan x="543.463" y="636.421">Real-time Server (Node.js)</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke-dasharray: 4; stroke: #000000" x1="542.545" y1="505.62" x2="542.728" y2="529.98"/>
+    <polygon style="fill: #000000" points="542.784,537.479 537.709,527.517 542.728,529.98 547.709,527.442 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" points="542.784,537.479 537.709,527.517 542.728,529.98 547.709,527.442 "/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="572.883" y="522.952">
+    <tspan x="572.883" y="522.952">Push</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="338.367" y="264.657" width="73.2551" height="130.694"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="338.367" y="264.657" width="73.2551" height="130.694"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="374.995" y="333.104">
+    <tspan x="374.995" y="333.104">Raw Data</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" d="M 374.995 395.351 C 374.161,420.823 334.001,399.001 317.509,422.895"/>
+    <polygon style="fill: #000000" points="313.249,429.068 314.814,417.997 317.509,422.895 323.044,423.678 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" points="313.249,429.068 314.814,417.997 317.509,422.895 323.044,423.678 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" d="M 257.3 393.833 C 259.78,419.915 300.001,406.001 308.258,422.272"/>
+    <polygon style="fill: #000000" points="311.652,428.96 302.668,422.305 308.258,422.272 311.585,417.78 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" points="311.652,428.96 302.668,422.305 308.258,422.272 311.585,417.78 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="517.591" y="377.248" width="49.0203" height="26.3257"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="517.591" y="377.248" width="49.0203" height="26.3257"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="542.101" y="393.511">
+    <tspan x="542.101" y="393.511">Redis</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="425.706" y="437.78" width="64.2717" height="56.7103"/>
+    <ellipse style="fill: #ffffff" cx="457.842" cy="494.491" rx="32.1358" ry="9.45172"/>
+    <ellipse style="fill: #ffffff" cx="457.842" cy="437.78" rx="32.1358" ry="9.45172"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" cx="457.842" cy="437.78" rx="32.1358" ry="9.45172"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" d="M 489.978 437.78 L 489.978,494.491 C 489.978,499.711 475.59,503.942 457.842,503.942 C 440.094,503.942 425.706,499.711 425.706,494.491 L 425.706,437.78"/>
+    <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="457.842" y="512.342">
+      <tspan x="457.842" y="512.342"></tspan>
+    </text>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="458.158" y="470.144">
+    <tspan x="458.158" y="470.144">External DB</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="520.314" y="539.742" width="45.3892" height="55.3748"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="520.314" y="539.742" width="45.3892" height="55.3748"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="543.009" y="570.529">
+    <tspan x="543.009" y="570.529">Redis</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="484.911" y="661.384" width="53.5592" height="57.1904"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="484.911" y="661.384" width="53.5592" height="57.1904"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="511.691" y="693.079">
+    <tspan x="511.691" y="693.079">Socket.io</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="551.697" y="661.384" width="49.4097" height="56.2826"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="551.697" y="661.384" width="49.4097" height="56.2826"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="576.401" y="692.625">
+    <tspan x="576.401" y="692.625">SockJS</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke-dasharray: 10 4 2 4; stroke: #000000" d="M 419.891,430.062 A 83.9196,83.9196 0 0 0 345.069,438.98"/>
+    <polygon style="fill: #000000" points="426.795,432.896 415.615,432.997 420.057,429.603 420.006,424.013 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" points="426.795,432.896 415.615,432.997 420.057,429.603 420.006,424.013 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="150.142" y="571.487" width="174.231" height="106.211"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="150.142" y="571.487" width="174.231" height="106.211"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="237.257" y="627.692">
+    <tspan x="237.257" y="627.692">Data API</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" d="M 179.151 515.068 C 179.841,525.382 192,522 187.265,543.2"/>
+    <polygon style="fill: #000000" points="178.65,507.585 184.307,517.228 179.151,515.068 174.329,517.896 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" points="178.65,507.585 184.307,517.228 179.151,515.068 174.329,517.896 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" d="M 310.668 514.876 C 307.544,531.321 246.001,517 236.274,542.118"/>
+    <polygon style="fill: #000000" points="312.068,507.507 315.114,518.265 310.668,514.876 305.289,516.398 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" points="312.068,507.507 315.114,518.265 310.668,514.876 305.289,516.398 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" d="M 455.153 512.6 C 448.108,535.28 296,516 285.771,542.118"/>
+    <polygon style="fill: #000000" points="457.378,505.437 459.186,516.47 455.153,512.6 449.636,513.504 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" points="457.378,505.437 459.186,516.47 455.153,512.6 449.636,513.504 "/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="379.607" y="432.622">
+    <tspan x="379.607" y="432.622">sync</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="121.408" y="770.293" width="522.883" height="176.344"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="121.408" y="770.293" width="522.883" height="176.344"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="363.786" y="790.731">
+    <tspan x="363.786" y="790.731">Browser</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="169.91" y="664.108" width="62.6371" height="44.4814"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="169.91" y="664.108" width="62.6371" height="44.4814"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="201.228" y="689.449">
+    <tspan x="201.228" y="689.449">HTTP API</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="138.137" y="868.567" width="491.111" height="63.5449"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke-dasharray: 5; stroke: #000000" x="138.137" y="868.567" width="491.111" height="63.5449"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="473.109" y="787.566" width="138.891" height="100.972"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="473.109" y="787.566" width="138.891" height="100.972"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="484.722" y="752.136" width="53.5592" height="57.1904"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="484.722" y="752.136" width="53.5592" height="57.1904"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="551.697" y="752.136" width="49.4097" height="56.2826"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="551.697" y="752.136" width="49.4097" height="56.2826"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke-dasharray: 4; stroke: #000000" x1="511.691" y1="718.574" x2="511.553" y2="743.071"/>
+    <polygon style="fill: #000000" points="511.51,750.571 506.567,740.543 511.553,743.071 516.567,740.599 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" points="511.51,750.571 506.567,740.543 511.553,743.071 516.567,740.599 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke-dasharray: 4; stroke: #000000" x1="576.401" y1="717.666" x2="576.401" y2="743.071"/>
+    <polygon style="fill: #000000" points="576.401,750.571 571.401,740.571 576.401,743.071 581.401,740.571 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" points="576.401,750.571 571.401,740.571 576.401,743.071 581.401,740.571 "/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="511.502" y="783.831">
+    <tspan x="511.502" y="783.831">Socket.io</tspan>
+  </text>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="576.401" y="783.377">
+    <tspan x="576.401" y="783.377">SockJS</tspan>
+  </text>
+  <text font-size="8.96" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="553.179" y="737.982">
+    <tspan x="553.179" y="737.982">Push</tspan>
+  </text>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="542.554" y="841.152">
+    <tspan x="542.554" y="841.152">Real-time API</tspan>
+  </text>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="383.693" y="903.439">
+    <tspan x="383.693" y="903.439">Application</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="162.021" y="789.698" width="148.492" height="96.0251"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke-dasharray: 5; stroke: #000000" x="162.021" y="789.698" width="148.492" height="96.0251"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="173.541" y="752.371" width="56.2826" height="57.1252"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke-dasharray: 5; stroke: #000000" x="173.541" y="752.371" width="56.2826" height="57.1252"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x1="201.682" y1="752.371" x2="201.322" y2="717.654"/>
+    <polygon style="fill: #000000" points="201.244,710.155 206.348,720.102 201.322,717.654 196.348,720.206 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" points="201.244,710.155 206.348,720.102 201.322,717.654 196.348,720.206 "/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="201.682" y="778.434">
+    <tspan x="201.682" y="778.434">XHR</tspan>
+    <tspan x="201.682" y="789.634">API</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="168.951" y="543.2" width="36.6281" height="52.4673"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="168.951" y="543.2" width="36.6281" height="52.4673"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="187.265" y="572.534">
+    <tspan x="187.265" y="572.534">SQLite</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="217.96" y="542.118" width="36.6281" height="52.4673"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke: #000000" x="217.96" y="542.118" width="36.6281" height="52.4673"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="236.274" y="571.451">
+    <tspan x="236.274" y="571.451">MySQL</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="267.457" y="542.118" width="36.6281" height="52.4673"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.4; stroke-dasharray: 5; stroke: #000000" x="267.457" y="542.118" width="36.6281" height="52.4673"/>
+  </g>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="285.771" y="571.451">
+    <tspan x="285.771" y="571.451">Other</tspan>
+  </text>
+  <text font-size="8.96" style="fill: #000000;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="574.098" y="422.047">
+    <tspan x="574.098" y="422.047">Push</tspan>
+  </text>
+  <text font-size="8.96" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="236.267" y="840.811">
+    <tspan x="236.267" y="840.811">Data API</tspan>
+  </text>
+</svg>

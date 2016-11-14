@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Погодная станция «Ласточка»</title>
+
+        <link rel="stylesheet" type="text/css" href="style/mesowx.css"/>
+<!--        <link rel="stylesheet" type="text/css" href="style/swallow.css"/> -->
+
+        <script type="text/javascript" src="js/lib/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="js/lib/d3.v3.min.js"></script>
+        <script type="text/javascript" src="js/lib/highstock.js"></script>
+        <script type="text/javascript" src="meso/js/meso.js"></script>
+        <script type="text/javascript" src="js/mesowx.js"></script>
+        <script type="text/javascript" src="meso/js/ChangeIndicatedValue.js"></script>
+        <script type="text/javascript" src="js/WindCompass.js"></script>
+        <script type="text/javascript" src="meso/js/AggregateDataProvider.js"></script>
+        <script type="text/javascript" src="meso/js/AbstractRealTimeRawDataProvider.js"></script>
+        <script type="text/javascript" src="meso/js/PollingRealTimeRawDataProvider.js"></script>
+        <script type="text/javascript" src="meso/js/StatsDataProvider.js"></script>
+        <script type="text/javascript" src="meso/js/AbstractHighstockChart.js"></script>
+        <script type="text/javascript" src="meso/js/MesoConsole.js"></script>
+        <script type="text/javascript" src="js/MesoWxConsole.js"></script>
+        <script type="text/javascript" src="js/MesoWxWindCompass.js"></script>
+        <script type="text/javascript" src="js/RawChart.js"></script>
+        <script type="text/javascript" src="js/ArchiveChart.js"></script>
+        <script type="text/javascript" src="js/RealTimeChart.js"></script>
+        <script type="text/javascript" src="js/Config.js"></script>
+        <script type="text/javascript" src="js/MesoWxApp.js"></script>
+
+        <script type="text/javascript">
+            $(function() {
+                new mesowx.MesoWxApp(mesowx.Config).start();
+            });
+        </script>
+
+<!-- Yandex.Metrika counter --> 
+<script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter40561575 = new Ya.Metrika({ id:40561575, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/40561575" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
+<!-- /Yandex.Metrika counter -->
+
+    </head>
+
+    <body>
+        <a href="/simple">Простой интерфейс</a>
+        <a href="/about">О проекте</a>
+
+        <div id="mesowx-console" class="wx-console console-vertical" id="wx-console-vertical">
+
+            <div class="outTemp-group reading-group">
+                <div><span class="outTemp-value reading-value"></span><span class="outTemp-unit unit-label"></span></div>
+                <span class="desc"><img src="files/thermometer.png" style="width:30px; height: 30px"/>температура<span>
+            </div>
+
+            <div class="wind-group reading-group">
+                <div id="compass" class="compass"></div>
+                <span class="desc"><img src="files/wind.png" style="width:30px; height: 30px"/>ветер</span>
+            </div>
+
+            <div class="out-hum-group reading-group">
+                <span class="outHumidity-value reading-value"></span><span class="outHumidity-unit unit-label"></span>
+                <span class="desc"><img src="files/humidity.png" style="width:27px; height: 27px"/> влажность</span>
+            </div>
+
+            <div class="bar-group reading-group">
+                <span class="pressure-value reading-value"></span><span class="pressure-unit unit-label"></span>
+                <span class="desc"> <img src="files/pressure.png" style="width:20px; height: 20px"/> давление</span>
+            </div>
+
+            <div class="rain-group reading-group">
+                 <span class="rainRate-value reading-value"></span><span class="rainRate-unit unit-label"></span> 
+                <span class="desc"><img src="files/rain.png" style="width:27px; height: 27px"/> дождь</span>
+            </div>
+
+            <div class="illumination-group reading-group">
+                <span class="illumination-value reading-value"></span><span class="illumination-unit unit-label"></span>
+                <span class="desc"><img src="files/illumination.png" style="width:33px; height: 33px"/> освещение</span>
+            </div>
+
+            <div class="geiger-group reading-group">
+                <span class="geiger-value reading-value"></span><span class="geiger-unit unit-label"></span>
+                <span class="desc"><img src="files/radiation.png" style="width:27px; height: 27px"/> γ-излучение</span>
+            </div>
+
+            <div class="last-update">
+		<em>Погодная станция «Ласточка»</em>
+		<br><br>
+		<em>(Россия, Санкт-Петербург, Светлановская пл.)</em>
+		<br><br>
+		
+	    <b><span class="dateTime-value"></span></b>
+	    </div>
+		<br><br>
+        </div>
+
+        <div id="charts-container"></div>
+
+        <div id="chart-selector">
+            <a class="button" id="real-time-selector" href="#">Сейчас</a>
+            <a class="button" id="today-selector" href="#">За сутки</a>
+            <a class="button" id="archive-selector" href="#">Архив</a>
+        </div>
+
+
+    </body>
+
+</html>

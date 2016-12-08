@@ -32,6 +32,7 @@ mesowx.Config = (function() {
         'dayRain':          new meso.FieldDef('dayRain',        mesowx.Unit.mm,         1,      meso.Agg.max,   'Rain Today'),
         'windSpeed':        new meso.FieldDef('windSpeed',      mesowx.Unit.mps,        0,      meso.Agg.avg,   'Скор. ветра'),
         'windDir':          new meso.FieldDef('windDir',        mesowx.Unit.deg,        0,      meso.Agg.avg,   'Напр. ветра'),
+        'maxWind':          new meso.FieldDef('maxWind',        mesowx.Unit.mps,        1,      meso.Agg.avg,   'Порывы ветра'),
         'outHumidity':      new meso.FieldDef('outHumidity',    mesowx.Unit.perc,       0,      meso.Agg.avg,   'Влажность'),
         'barometer':        new meso.FieldDef('pressure',       mesowx.Unit.mmHg,       0,      meso.Agg.avg,   'Давление'),
         'inTemp':           new meso.FieldDef('inTemp',         mesowx.Unit.c,          1,      meso.Agg.avg,   'Темп. устр-ва'),
@@ -185,7 +186,7 @@ mesowx.Config = (function() {
             highstockAxisOptions : {
                 title: {
                     text: 'Напр. ветра',
-                    style: {color: '#C7CB51'}
+                    style: {color: '#A0A0A0'}
                 },
                 height : 120,
                 top : 200,
@@ -199,6 +200,23 @@ mesowx.Config = (function() {
                         return Config.degreeOrdinalLabels[this.value.toString()]; 
 		    }
                 }
+           },
+        },
+        // wind max axis
+        "maxWind" : {
+            axisId : "maxWindAxis",
+            unit : Config.fieldDefaults.maxWind.unit,
+            highstockAxisOptions : {
+                title: {
+                    text: 'Порывы ветра',
+                    style: {color: '#C7CB51'}
+                },
+                height : 120,
+                top : 200,
+                opposite: true,
+                min: 0,
+                offset: 20,
+                TickInterval: 90
            },
         },
         
@@ -373,10 +391,25 @@ mesowx.Config = (function() {
             fieldDef : Config.fieldDefaults.windDir,
             axis : 'windDirAxis',
             highstockSeriesOptions : {
-                color: '#C7CB51',
+                color: '#A0A0A0',
                 lineWidth: 1,
                 visible: true,
                 dashStyle: 'ShortDot'
+            }
+        },
+        // wind max
+        "maxWind" : {
+            fieldDef : Config.fieldDefaults.maxWind,
+            axis : 'maxWindAxis',
+            highstockSeriesOptions : {
+                color: '#C7CB51',
+                lineWidth: 0,
+                marker: {
+                    enabled: true,
+                    radius: 1
+                },
+                visible: true,
+//                dashStyle: 'ShortDot'
             }
         },
         
@@ -473,6 +506,7 @@ mesowx.Config = (function() {
             Config.chartDefaults.yAxes.barometer,
             Config.chartDefaults.yAxes.windSpeed,
             Config.chartDefaults.yAxes.windDir,
+            Config.chartDefaults.yAxes.maxWind,
             // Uncomment the following line and the dayRain series below if you have a Davis station and want to display it
             //Config.chartDefaults.yAxes.rain,
             Config.chartDefaults.yAxes.rainRate,
@@ -487,6 +521,7 @@ mesowx.Config = (function() {
             Config.chartDefaults.series.barometer,
             Config.chartDefaults.series.windSpeed,
             Config.chartDefaults.series.windDir,
+            Config.chartDefaults.series.maxWind,
             // Uncomment the following line and the rain axis above if you have a Davis station and want to display it
             //Config.chartDefaults.series.dayRain,
             Config.chartDefaults.series.rainRate,
@@ -552,6 +587,7 @@ mesowx.Config = (function() {
             Config.chartDefaults.yAxes.barometer,
             Config.chartDefaults.yAxes.windSpeed,
             Config.chartDefaults.yAxes.windDir,
+            Config.chartDefaults.yAxes.maxWind,
             // Uncomment the following line and the dayRain series below if you have a Davis station and want to display it
             //Config.chartDefaults.yAxes.rain,
             Config.chartDefaults.yAxes.rainRate,
@@ -566,6 +602,7 @@ mesowx.Config = (function() {
             Config.chartDefaults.series.barometer,
             Config.chartDefaults.series.windSpeed,
             Config.chartDefaults.series.windDir,
+            Config.chartDefaults.series.maxWind,
             // Uncomment the following line and the rain axis above if you have a Davis station and want to display it
             //Config.chartDefaults.series.dayRain,
             Config.chartDefaults.series.rainRate,
@@ -628,7 +665,7 @@ mesowx.Config = (function() {
             Config.chartDefaults.yAxes.barometer,
             Config.chartDefaults.yAxes.windSpeed,
             Config.chartDefaults.yAxes.windDir,
-            Config.chartDefaults.yAxes.rainRate,
+            Config.chartDefaults.yAxes.maxWind,
             Config.chartDefaults.yAxes.humidity,
             Config.chartDefaults.yAxes.illumination,
             Config.chartDefaults.yAxes.geiger,
@@ -641,6 +678,7 @@ mesowx.Config = (function() {
             Config.chartDefaults.series.barometer,
             Config.chartDefaults.series.windSpeed,
             Config.chartDefaults.series.windDir,
+            Config.chartDefaults.series.maxWind,
             Config.chartDefaults.series.rainRate,
             Config.chartDefaults.series.outHumidity,
             Config.chartDefaults.series.illumination,

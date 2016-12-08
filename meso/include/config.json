@@ -68,7 +68,8 @@
                 "deltarain" :   {"unit" : "mmHr"},
                 "illumination": {"unit" : "lux"},
                 "geiger":       {"unit" : "cph"},
-                "downfall":     {"unit" : "boool"}
+                "downfall":     {"unit" : "boool"},
+                "maxWind":      {"unit" : "mps"}
             },
             // constraints on the data, only primaryKey is supported currently
             "constraints" : {
@@ -111,10 +112,10 @@
                 "windDir" :     {"unit" : "deg"},
                 "pressure" :    {"unit" : "hPa"},
                 "deltarain" :   {"unit" : "mmHr"},
-//                "dayRain" :     {"unit" : "mm"},
                 "illumination": {"unit" : "lux"},
                 "geiger":       {"unit" : "cph"},
-                "downfall":     {"unit" : "boool"}
+                "downfall":     {"unit" : "boool"},
+                "maxWind":      {"unit" : "mps"}
             },
             "constraints" : {
                 "primaryKey" : "dateTime"
